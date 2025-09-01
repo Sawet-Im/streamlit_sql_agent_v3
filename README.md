@@ -28,9 +28,9 @@ cd YOUR_REPO_NAME
    (อย่าลืมเปลี่ยน YOUR_USERNAME/YOUR_REPO_NAME เป็นชื่อผู้ใช้และชื่อ repository ของคุณ)
  * สร้าง Environment และติดตั้ง Dependencies:
    python -m venv venv
-source venv/bin/activate  # สำหรับ Linux/macOS
-# venv\Scripts\activate    # สำหรับ Windows
-pip install -r requirements.txt
+   source venv/bin/activate  # สำหรับ Linux/macOS
+   # venv\Scripts\activate    # สำหรับ Windows
+   pip install -r requirements.txt
 
    (ไฟล์ requirements.txt ควรมี streamlit, langchain, langchain-google-genai, langchain-ollama, python-dotenv)
  * ตั้งค่า Environment Variables:

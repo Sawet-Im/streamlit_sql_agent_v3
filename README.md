@@ -25,12 +25,16 @@
     ```
     git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
     ```
-    * cd YOUR_REPO_NAME
+    ``
+    cd YOUR_REPO_NAME
+    ``
  * สร้าง Environment และติดตั้ง Dependencies:
+   ```
    python -m venv venv
    source venv/bin/activate  # สำหรับ Linux/macOS
    # venv\Scripts\activate    # สำหรับ Windows
    pip install -r requirements.txt
+   ```
 
    (ไฟล์ requirements.txt ควรมี streamlit, langchain, langchain-google-genai, langchain-ollama, python-dotenv)
  * ตั้งค่า Environment Variables:

@@ -22,8 +22,7 @@
  * สำหรับ Llama3.2: Ollama Server และ OLLAMA_HOST (ดูรายละเอียดด้านล่าง)
 ขั้นตอนการติดตั้ง
  * Clone Repository:
-    ```git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git]
-       (https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    ```git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
     ```
     * cd YOUR_REPO_NAME
  * สร้าง Environment และติดตั้ง Dependencies:

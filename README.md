@@ -22,9 +22,10 @@
  * สำหรับ Llama3.2: Ollama Server และ OLLAMA_HOST (ดูรายละเอียดด้านล่าง)
 ขั้นตอนการติดตั้ง
  * Clone Repository:
-    * git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    ```git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git]
+       (https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    ```
     * cd YOUR_REPO_NAME
-    ** (อย่าลืมเปลี่ยน YOUR_USERNAME/YOUR_REPO_NAME เป็นชื่อผู้ใช้และชื่อ repository ของคุณ)
  * สร้าง Environment และติดตั้ง Dependencies:
    python -m venv venv
    source venv/bin/activate  # สำหรับ Linux/macOS

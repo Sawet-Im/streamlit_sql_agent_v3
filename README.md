@@ -43,7 +43,7 @@
    * สำหรับ Google Gemini:
      ```
      GOOGLE_API_KEY="YOUR_GEMINI_API_KEY_HERE"
-    ```
+     ```
      คุณสามารถขอ API Key ได้จาก Google AI Studio
    * สำหรับ Llama3.2 (ผ่าน Ollama):
      คุณต้องติดตั้งและเรียกใช้ Ollama Server บนเครื่องของคุณก่อน จากนั้นโหลดโมเดล llama3.2 (หรือโมเดลอื่นที่คุณต้องการใช้):

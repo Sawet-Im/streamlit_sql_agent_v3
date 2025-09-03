@@ -23,7 +23,7 @@
 ขั้นตอนการติดตั้ง
  * Clone Repository:
     ```
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+    git clone https://github.com/Sawet-Im/streamlit_sql_agent_v3.git
     ```
     ``
     cd YOUR_REPO_NAME
@@ -78,9 +78,10 @@ streamlit run streamlit_sql_agentv3.py
 
 📁 โครงสร้างโปรเจกต์
 ```
-    ─ app.py             # ไฟล์ Streamlit หลักของแอปพลิเคชัน
-    ─ requirements.txt   # รายชื่อ dependencies ที่ต้องติดตั้ง
-    ─ .env               # ไฟล์สำหรับเก็บ Environment Variables (เช่น API Keys)
-    ─ store_database.db  # ไฟล์ฐานข้อมูล SQLite ที่จะถูกสร้างขึ้น
+    
+    |─ app.py             # ไฟล์ Streamlit หลักของแอปพลิเคชัน
+    |─ requirements.txt   # รายชื่อ dependencies ที่ต้องติดตั้ง
+    |─ .env               # ไฟล์สำหรับเก็บ Environment Variables (เช่น API Keys)
+    |─ store_database.db  # ไฟล์ฐานข้อมูล SQLite ที่จะถูกสร้างขึ้น
 ```
 
